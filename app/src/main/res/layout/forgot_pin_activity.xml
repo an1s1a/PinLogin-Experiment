@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.pinlogin.ForgotActivity">
+
+    <include
+        layout="@layout/password_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/password_dots"/>
+
+    <include
+        layout="@layout/numeric_keypad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password_dots"
+        />
+
+
+
+    <TextView
+        android:id="@+id/insert_new_PIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_new_PIN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        style="@style/Text"
+        android:contentDescription="@string/insert_new_PIN"/>
+
+    <TextView
+        android:id="@+id/error_less_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_new_PIN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/insert_new_PIN"
+        android:visibility="gone"
+        style="@style/Text" />
+
+</RelativeLayout>

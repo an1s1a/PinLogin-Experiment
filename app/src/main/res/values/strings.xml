@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PinLogin</string>
+
+    <!-- BUTTONS -->
+    <string name="canc"><![CDATA[<]]></string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="canc_all">X</string>
+    <string name="ok">OK</string>
+
+
+    <string name="forgot_pin">Forgot PIN?</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_last">Delete last number</string>
+    <string name="logged">Yeah!</string>
+    <string name="you_forgot_password">You forgot your password!</string>
+    <string name="insert_new_PIN">Insert new PIN</string>
+    <string name="reenter_PIN">Repeat new PIN</string>
+    <string name="new_PIN_saved">New PIN saved</string>
+    <string name="error_PIN">PIN not correct. Insert new PIN</string>
+    <string name="error_less_four">Insert 4 numbers</string>
+    <string name="no_more_attempts">No more attempts</string>
+  <!--  <string name="logged">Yeah!</string>
+    <string name="logged">Yeah!</string>
+    <string name="logged">Yeah!</string>
+    <string name="logged">Yeah!</string>
+ -->
+</resources>

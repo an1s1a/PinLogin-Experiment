@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.pinlogin.MainActivity">
+
+    <include
+        layout="@layout/password_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/password_dots"/>
+
+    <include
+        layout="@layout/numeric_keypad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password_dots"
+        />
+
+    <TextView
+        android:id="@+id/forgot_pin"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/forgot_pin"
+        android:clickable="true"
+        android:onClick="forgotPassword"/>
+
+    <TextView
+        android:id="@+id/message"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/forgot_pin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        />
+
+</RelativeLayout>

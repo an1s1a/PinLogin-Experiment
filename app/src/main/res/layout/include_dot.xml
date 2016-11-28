@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/first_viewswitcher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inAnimation="@anim/fade_in"
+    android:outAnimation="@anim/fade_out"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/first_ring"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/small_ring" />
+
+    <ImageView
+        android:id="@+id/first_circle"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/small_circle" />
+
+</ViewSwitcher>
